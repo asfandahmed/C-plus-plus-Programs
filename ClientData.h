@@ -1,0 +1,23 @@
+#include <string>
+//#ifndef CLIENTDATA_H
+//#define CLIENTDATA_H
+
+class ClientData
+{
+      private:
+              int accountNumber;
+              char lastName[15];
+              char firstName[10];
+              double balance;
+      public:
+             ClientData(int, string, string, double);
+             void setAccountNumber(int);
+             int getAccountNumber() const;
+             void setLastName(string);
+             string getLastName() const;
+             void setFirstName(string);
+             string getFirstName() const;
+             void setBalance(double);
+             double getBalance() const;
+};
+//#endif

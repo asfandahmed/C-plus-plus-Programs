@@ -1,0 +1,7 @@
+NOTE: This program is for DEV CPP IDE. ASSUMING THAT YOU HAVE INSTALLED PACKAGE FOR C++ AND MYSQL CONNECTIVITY.
+
+1. To run this program you must have a running apache server and mysql installed.
+2. Edit phonebook.cpp file provide your server name, password and database name in it.
+3. Create a table named person.
+4. Person table should have the following attributes: First name, last name, email, phone number and address.
+5. Make sure that libmySQL.dll is located in the folder where is your .exe existed, if it not then copy libmySQL.dll which is attached in zip folder and paste it in folder where your .exe file exist.
